@@ -1,0 +1,16 @@
+[package]
+name = "backend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+axum = "0.7.5"
+hyper = "1.4.1"
+rust-bert = "0.22.0"
+serde = { version = "1.0.204", features = ["derive"] }
+serde_json = "1.0.120"
+tokio = { version = "1.38.0", features = ["full"] }
+tower-http = { version = "0.5.2", features = ["cors"] }
+tracing = "0.1.40"
+tracing-subscriber = "0.3.18"

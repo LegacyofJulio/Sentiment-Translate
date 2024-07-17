@@ -1,0 +1,4 @@
+backend/target
+web/node_modules
+web/bun.lockb
+
