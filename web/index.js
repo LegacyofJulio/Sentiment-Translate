@@ -11,7 +11,7 @@ async function sendData() {
     });
     const data = await response.json();
     const data_to_be_send = data['response'];
-    response_div.innerHTML = '<h3>Response</h3><pre>' + data_to_be_send + '</pre>';
+    response_div.innerHTML = '<h3>Response</h3>' + data_to_be_send;
 
   } catch (error) {
     console.log(error);
